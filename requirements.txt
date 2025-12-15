@@ -1,0 +1,12 @@
+python-dotenv
+tldextract
+beautifulsoup4
+httpx
+fastapi
+uvicorn
+faiss-cpu
+langchain==0.3.*
+langchain-community==0.3.*
+langchain-text-splitters==0.3.*
+langchain-openai==0.2.*
+sentence-transformers

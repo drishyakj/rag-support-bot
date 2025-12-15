@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Data & cache
+data/raw/
+data/clean/
+data/index/
+.cache/
+tmp/
+logs/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# FastAPI / Uvicorn
+*.db
+*.sqlite3
+
+# Docker
+*.pid
+*.tar
